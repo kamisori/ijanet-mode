@@ -267,11 +267,11 @@ See `comint-prompt-read-only' for details."
   (setq-local comint-prompt-read-only ijanet-prompt-read-only)
   )
 
-;; (progn
-;;   (define-key janet-mode-map (kbd "C-c C-b") #'ijanet-eval-buffer)
-;;   (define-key janet-mode-map (kbd "C-c C-r") #'ijanet-eval-region)
-;;   (define-key janet-mode-map (kbd "C-c C-l") #'ijanet-eval-line)
-;;   (define-key janet-mode-map (kbd "C-c C-p") #'ijanet))
+ (progn
+   (define-key janet-mode-map (kbd "C-c C-b") #'ijanet-eval-buffer)
+   (define-key janet-mode-map (kbd "C-c C-r") #'ijanet-eval-region)
+   (define-key janet-mode-map (kbd "C-c C-l") #'ijanet-eval-line)
+   (define-key janet-mode-map (kbd "C-c C-p") #'ijanet))
 
 
 
